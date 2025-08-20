@@ -1,17 +1,29 @@
 # General
 .DS_Store
+Thumbs.db
+
+# Node / JS
+node_modules/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Build outputs
+build/
+dist/
+.out/
+.next/
+.vercel/
+
+# Env files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 *.log
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-error.log
-pnpm-debug.log
-
-# Build/Dist
-.dist/
-dist/
-build/
-
-# Vercel
-.vercel/
+# Coverage
+coverage/
